@@ -1,0 +1,90 @@
+
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+.container{
+  background:rgba(00,00,00,0.4);
+  position: fixed;
+  top: 4%;
+  right: 15%;
+  bottom:9%;
+  left: 15%;
+  padding-left:9%;
+  padding-right:9%;
+  padding-top: 4%;
+  padding-bottom:4%;
+  border-radius: 2%;
+}
+
+#logo{
+  width: 400px;
+  margin:auto;
+  display: block;
+}
+
+.titolo{
+  text-align: center;
+  color: #00ff00;
+  font-size: 36px;
+  padding: 5px;
+}
+
+.menu{
+  background-color:#00ff00;
+  width: 100%;
+  padding: 10px;
+  margin:auto;
+  text-align: center;
+}
+
+.nav > input{
+  display: inline-block;
+}
+
+.sezione{
+  margin-top: 25px;
+
+}
+
+.testo{
+  color: white;
+  font-family: 'Roboto Serif', sans-serif;
+  margin: 0px;
+}
+
+.batteria{
+  border-radius: 4px;
+  padding: 13px;
+
+}
+
+.carica {
+  background-color: #00ff00;
+  width: 60%;
+}
+
+.meta{
+  background-color:orange;
+  width: 40%;
+}
+
+.scarica{
+  background-color: red;
+  width: 20%;
+}
+
+h3{
+  margin:5px;
+  display: inline-block;
+}
+
+.testo:last-child{
+  margin:5px;
+}
+
+p:first-of-type::before{
+  content:"\21A6";
+}
